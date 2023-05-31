@@ -9,6 +9,7 @@ class Developer:
         self.role = "Software Developer"
         self.jobs = ["Capital One", "Bushwick Commodity", "ReosityLXC"]
         self.languages = ["Python", "JavaScript", "TypeScript", "PHP"]
+        self.learning_languages = ["Go", "Rust"]
         self.tools = ["React", "Node.js", "Django", "Laravel"]
 
     def get_contact_links(self):
@@ -19,6 +20,7 @@ class Developer:
 me = Developer()
 print(f"Hello, I'm {me.name}, a {me.role}.")
 print(f"I enjoy coding in {', '.join(me.languages)} using {', '.join(me.tools)}.")
+print(f"Im currently researching and learning about {', '.join(me.learning_languages)}")
 print(f"I have worked for {', '.join(me.jobs)}) in the past 5 years.)
 print(me.get_contact_links())
 ```
