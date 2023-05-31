@@ -1,30 +1,34 @@
-<h1 align="center">Hi, I'm Colby 👋</h1>
-<h3 align="center">15 years of experience in product management and data science</h3>
+<h2 align="center">Welcome to my Github Page! 👋</h2>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nopenotdark&label=Profile%20views&color=0e75b6&style=flat" alt="nopenotdark" /> </p>
+<p align="center">My name is Colby and I have knowledge in Python 🐍, JavaScript & TypeScript 🌐, and PHP 🐘.</p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nopenotdark" alt="nopenotdark" /></a> </p>
+```python
+class Developer:
+    def __init__(self):
+        self.name = "Colby"
+        self.role = "Software Developer"
+        self.jobs = ["Capital One", "Bushwick Commodity", "ReosityLXC"]
+        self.languages = ["Python", "JavaScript", "TypeScript", "PHP"]
+        self.tools = ["React", "Node.js", "Django", "Laravel"]
 
-<p align="left"> <a href="https://twitter.com/" target="_blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+    def get_contact_links(self):
+        devto = "https://dev.to/cphamster"
+        linkedin = "https://linkedin.com/in/cphamster"
+        return f"Connect with me on [Dev.to]({devto}) and [LinkedIn]({linkedin})!"
 
-- 🔭 I’m currently working on **nothing**
-- 🌱 I’m currently learning **PySpark and AI development**
-- 👯 I’m looking to collaborate on **open source projects**
-- 💬 Ask me about **anything related to PHP, JS, Python, or Golang**
-- 📫 How to reach me: **colbypham556@gmail.com**
-
-⚡ Fun fact: **I think I'm funny**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/cphamster" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="cphamster" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/cphamster" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cphamster" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://www.php.net/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-  <a href="https://www.python.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-  <a href="https://golang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="golang" width="40" height="40"/></a>
-</p>
+me = Developer()
+print(f"Hello, I'm {me.name}, a {me.role}.")
+print(f"I enjoy coding in {', '.join(me.languages)} using {', '.join(me.tools)}.")
+print(f"I have worked for {', '.join(me.jobs)}) in the past 5 years.)
+print(me.get_contact_links())
+```
+```
+_______________
+< Have a nerdy day! >
+ ---------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
