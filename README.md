@@ -21,7 +21,7 @@ me = Developer()
 print(f"Hello, I'm {me.name}, a {me.role}.")
 print(f"I enjoy coding in {', '.join(me.languages)} using {', '.join(me.tools)}.")
 print(f"Im currently researching and learning about {', '.join(me.learning_languages)}")
-print(f"I have worked for {', '.join(me.jobs)}) in the past 5 years.)
+print(f"I have worked for {', '.join(me.jobs)}) in the past 5 years.")
 print(me.get_contact_links())
 ```
 ```
